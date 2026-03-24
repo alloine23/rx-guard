@@ -1,0 +1,44 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Primary diagonal gradient — teal-300 → teal-600 → emerald-950 -->
+    <linearGradient id="ll" x1="8" y1="3" x2="42" y2="47" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5eead4"/>
+      <stop offset="0.42" stop-color="#0d9488"/>
+      <stop offset="1" stop-color="#064e3b"/>
+    </linearGradient>
+    <!-- Radial gloss highlight — upper-left bright spot -->
+    <radialGradient id="lr" cx="35%" cy="18%" r="58%" gradientUnits="objectBoundingBox">
+      <stop stop-color="white" stop-opacity="0.28"/>
+      <stop offset="0.6" stop-color="white" stop-opacity="0.06"/>
+      <stop offset="1" stop-color="white" stop-opacity="0"/>
+    </radialGradient>
+    <!-- Clip mask so the radial gloss stays inside the shield -->
+    <clipPath id="lm">
+      <path d="M11 4H37C40.3 4 43 6.7 43 10V27C43 37.5 34 45 24 47C14 45 5 37.5 5 27V10C5 6.7 7.7 4 11 4Z"/>
+    </clipPath>
+  </defs>
+
+  <!-- Shield fill -->
+  <path d="M11 4H37C40.3 4 43 6.7 43 10V27C43 37.5 34 45 24 47C14 45 5 37.5 5 27V10C5 6.7 7.7 4 11 4Z" fill="url(#ll)"/>
+
+  <!-- Gloss overlay (clipped to shield) -->
+  <rect x="0" y="0" width="48" height="48" fill="url(#lr)" clip-path="url(#lm)"/>
+
+  <!-- Inner border — adds perceived depth -->
+  <path d="M13 6.5H35C37.5 6.5 39.5 8.5 39.5 11V26.5C39.5 35 32.5 42 24 44C15.5 42 8.5 35 8.5 26.5V11C8.5 8.5 10.5 6.5 13 6.5Z" stroke="white" stroke-opacity="0.14" stroke-width="1" fill="none"/>
+
+  <!-- Top-edge gloss arc — rim shine -->
+  <path d="M13 6.5 Q24 4.5 35 6.5" stroke="white" stroke-opacity="0.35" stroke-width="1.2" stroke-linecap="round" fill="none"/>
+
+  <!-- R — vertical stem -->
+  <path d="M15 11V33" stroke="white" stroke-width="4.2" stroke-linecap="round"/>
+
+  <!-- R — compact bowl -->
+  <path d="M15 11H21.5C26 11 28.5 14 28.5 17.8C28.5 21.6 26 24 21.5 24H15" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+
+  <!-- R leg → x main diagonal -->
+  <path d="M20.5 24L34 38" stroke="white" stroke-width="3.5" stroke-linecap="round"/>
+
+  <!-- x counter stroke -->
+  <path d="M32 26L22 38" stroke="white" stroke-width="3.5" stroke-linecap="round" opacity="0.85"/>
+</svg>

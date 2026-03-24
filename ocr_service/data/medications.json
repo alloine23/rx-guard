@@ -1,0 +1,23 @@
+{
+  "medications": [
+    "Losartan", "Amlodipine", "Metformin", "Glimepiride", "Atorvastatin",
+    "Simvastatin", "Omeprazole", "Pantoprazole", "Amoxicillin", "Cefalexin",
+    "Ciprofloxacin", "Metronidazole", "Paracetamol", "Ibuprofen", "Mefenamic Acid",
+    "Salbutamol", "Budesonide", "Prednisone", "Dexamethasone", "Insulin Glargine",
+    "Metoprolol", "Carvedilol", "Furosemide", "Hydrochlorothiazide", "Spironolactone",
+    "Warfarin", "Clopidogrel", "Aspirin", "Rosuvastatin", "Lisinopril",
+    "Enalapril", "Valsartan", "Telmisartan", "Candesartan", "Irbesartan",
+    "Pioglitazone", "Sitagliptin", "Empagliflozin", "Dapagliflozin", "Liraglutide",
+    "Levothyroxine", "Propylthiouracil", "Methimazole", "Ferrous Sulfate", "Folic Acid",
+    "Vitamin D3", "Calcium Carbonate", "Ranitidine", "Famotidine", "Domperidone",
+    "Ondansetron", "Tramadol", "Morphine", "Gabapentin", "Pregabalin",
+    "Diazepam", "Alprazolam", "Sertraline", "Fluoxetine", "Escitalopram",
+    "Quetiapine", "Risperidone", "Haloperidol", "Phenytoin", "Carbamazepine",
+    "Valproic Acid", "Levetiracetam", "Ceftriaxone", "Azithromycin", "Doxycycline",
+    "Clindamycin", "Co-Amoxiclav", "Levofloxacin", "Cotrimoxazole", "Fluconazole",
+    "Clotrimazole", "Acyclovir", "Oseltamivir", "Hydroxychloroquine", "Colchicine",
+    "Allopurinol", "Febuxostat", "Tamsulosin", "Finasteride", "Sildenafil",
+    "Montelukast", "Cetirizine", "Loratadine", "Diphenhydramine", "Chlorpheniramine",
+    "Loperamide", "Hyoscine", "Dextromethorphan", "Guaifenesin", "Carbocisteine"
+  ]
+}

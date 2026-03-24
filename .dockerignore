@@ -1,0 +1,29 @@
+node_modules
+.next
+.git
+.gitignore
+.env*
+.worktrees
+
+# Docs & plans
+docs
+*.md
+LICENSE
+
+# Testing
+coverage
+jest.config.*
+__tests__
+**/__tests__
+
+# Dev tooling
+.vscode
+.idea
+*.tsbuildinfo
+
+# OCR service (has its own build context)
+ocr_service
+
+# OS files
+.DS_Store
+Thumbs.db

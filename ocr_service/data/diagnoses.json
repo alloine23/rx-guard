@@ -1,0 +1,22 @@
+{
+  "diagnoses": [
+    "Hypertension", "Type 2 Diabetes Mellitus", "Type 1 Diabetes Mellitus",
+    "Dyslipidemia", "Hyperlipidemia", "Coronary Artery Disease",
+    "Congestive Heart Failure", "Atrial Fibrillation", "Stroke",
+    "Chronic Kidney Disease", "Acute Kidney Injury", "Urinary Tract Infection",
+    "Pneumonia", "Bronchial Asthma", "Chronic Obstructive Pulmonary Disease",
+    "Tuberculosis", "Upper Respiratory Tract Infection", "Dengue Fever",
+    "Typhoid Fever", "Gastroenteritis", "Peptic Ulcer Disease",
+    "Gastroesophageal Reflux Disease", "Liver Cirrhosis", "Hepatitis A",
+    "Hepatitis B", "Hepatitis C", "Cholecystitis", "Pancreatitis",
+    "Appendicitis", "Anemia", "Iron Deficiency Anemia", "Thyroid Disease",
+    "Hypothyroidism", "Hyperthyroidism", "Osteoarthritis", "Rheumatoid Arthritis",
+    "Gout", "Systemic Lupus Erythematosus", "Migraine", "Epilepsy",
+    "Parkinson Disease", "Alzheimer Disease", "Major Depressive Disorder",
+    "Generalized Anxiety Disorder", "Schizophrenia", "Bipolar Disorder",
+    "Cellulitis", "Abscess", "Wound Infection", "Fracture",
+    "Sprain", "Concussion", "Benign Prostatic Hyperplasia",
+    "Chronic Pain Syndrome", "Allergic Rhinitis", "Contact Dermatitis",
+    "Psoriasis", "Eczema", "Pregnancy", "Preeclampsia"
+  ]
+}
